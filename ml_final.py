@@ -48,7 +48,7 @@ print(X.shape)
 def prepare_data():
   #Principal component analysis 
   X_std = StandardScaler().fit_transform(X)
-  pca = PCA(n_components=18)
+  pca = PCA(n_components=20)
   x_pca = pca.fit_transform(X_std)
   return pca,x_pca
 
