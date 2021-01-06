@@ -8,8 +8,8 @@
 Kaggle https://www.kaggle.com/johndddddd/customer-satisfaction
 
 # Usage
- init the model (save model)   
-    run ml_final.py
+ init the model (save model)
+     run ml_final.py
  run the prediction page
     run main.py
     open 127.0.0.1
